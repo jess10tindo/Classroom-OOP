@@ -24,6 +24,7 @@ public class TestInstructor {
         instructor.teach(student, 3);
         Assert.assertEquals(3,student.getTotalStudyTime(), .0001);
     }
+
     @Test
     public void testLecture(){
         Instructor instructor = new Instructor();
